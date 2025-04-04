@@ -51,7 +51,6 @@ def main():
 
     fig = plt.figure("Task 2")
     axs = fig.subplots(2)
-    fig.suptitle("Task 2")
     for i in range(len(colors)):
         for j in range(np.size(x)):
             y[j] = approx_ln(x[j], i)
