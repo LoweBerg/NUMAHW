@@ -79,7 +79,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1743772888936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Första versionen">
+      <created>1743775010020</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1743775010020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,7 +109,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>47</line>
+          <line>52</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
