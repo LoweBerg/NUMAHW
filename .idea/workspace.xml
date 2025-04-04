@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd923a3f-6019-43fc-b0a4-9227112847e4" name="Changes" comment="tog bort en print" />
+    <list default="true" id="bd923a3f-6019-43fc-b0a4-9227112847e4" name="Changes" comment="trim" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +88,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1743775796423</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="trim">
+      <created>1743776150191</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1743776150191</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,7 +112,8 @@
     <MESSAGE value="initialized" />
     <MESSAGE value="Första versionen" />
     <MESSAGE value="tog bort en print" />
-    <option name="LAST_COMMIT_MESSAGE" value="tog bort en print" />
+    <MESSAGE value="trim" />
+    <option name="LAST_COMMIT_MESSAGE" value="trim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

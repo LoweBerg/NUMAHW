@@ -78,10 +78,10 @@ def main():
     plt.plot(n, error, color='blue', label=f'|approx_ln(1.41, n) - ln(1.41)|')
     plt.legend()
 
-    # Task 4
+    # Task 5
     x = np.flip(np.linspace(20, 0, 1000, False))
     error = np.zeros(np.size(x))
-    plt.figure("Task 4")
+    plt.figure("Task 5")
     plt.title("Error behavior of the accelerated Carlsson method for the log")
     for i in range(2, 7):
         for j in range(np.size(x)):
