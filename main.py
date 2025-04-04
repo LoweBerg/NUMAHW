@@ -35,7 +35,11 @@ def main():
         error[i] = abs(np.log(x) - approx_ln(x, n[i]))
 
     plt.figure("Task 3")
-    plt.plot(n, error)
+    plt.xlabel('n')
+    plt.ylabel('Error')
+    plt.title('Error of approx_ln(1.41, n) for n')
+    plt.plot(n, error, color='blue', label=f'|approx_ln(1.41, n) - ln(1.41)|')
+    plt.legend()
     plt.grid()
 
     # Task 4
