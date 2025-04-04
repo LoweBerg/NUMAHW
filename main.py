@@ -40,7 +40,6 @@ def main():
     plt.title('Error of approx_ln(1.41, n) for n')
     plt.plot(n, error, color='blue', label=f'|approx_ln(1.41, n) - ln(1.41)|')
     plt.legend()
-    plt.grid()
 
     # Task 4
     x = np.flip(np.linspace(20, 0, 1000, False))
