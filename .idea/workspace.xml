@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd923a3f-6019-43fc-b0a4-9227112847e4" name="Changes" comment="initialized">
+    <list default="true" id="bd923a3f-6019-43fc-b0a4-9227112847e4" name="Changes" comment="Första versionen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1743765459599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Första versionen">
+      <created>1743772888936</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1743772888936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,14 +95,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialized" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialized" />
+    <MESSAGE value="Första versionen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Första versionen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>42</line>
+          <line>47</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

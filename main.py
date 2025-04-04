@@ -9,16 +9,23 @@ def main():
     # Task 2
     x = np.flip(np.linspace(100, 0, 100, False))
     y = np.zeros(np.size(x))
+    error = np.zeros(np.size(x))
 
-    plt.figure("Task 2")
+    fig = plt.figure("Task 2")
+    axs = fig.subplots(2)
+    fig.suptitle("Task 2")
     for i in range(len(colors)):
         for j in range(np.size(x)):
             y[j] = approx_ln(x[j], i)
-        plt.plot(x, y, color=colors[i], label=f'approximated logarithm after {i} iterations')
+            error[j] = abs(np.log(x[j]) - y[j])
+        axs[0].plot(x, y, color=colors[i], label=f'approximated logarithm after {i} iterations')
+        axs[1].plot(x, error, color=colors[i], label=f'error after {i} iterations')
 
-    plt.plot(x, np.log(x), label='numpy natural logarithm')
-    plt.legend()
-    plt.grid()
+    axs[0].plot(x, np.log(x), label='numpy natural logarithm')
+    axs[0].legend()
+    axs[0].set_title("approximated logarithms with different numbers of iterations")
+    axs[1].legend()
+    axs[1].set_title("error of approximated logarithms")
 
     # Task 3
     x = 1.41
@@ -47,7 +54,6 @@ def main():
     plt.yscale('log')
     plt.ylim(10**-19, 10**-5)
     plt.legend()
-
 
 
 main()
