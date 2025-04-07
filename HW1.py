@@ -89,7 +89,7 @@ def main():
         plt.scatter(x, error, color=colors[i-2], label=f'iteration {i}', marker='o', s=5)
     plt.xlabel('x')
     plt.xlim(0, 20)
-    plt.ylabel('y')
+    plt.ylabel('error')
     plt.yscale('log')
     plt.ylim(10**-19, 10**-5)
     plt.legend()
