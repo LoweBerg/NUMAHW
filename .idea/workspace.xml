@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd923a3f-6019-43fc-b0a4-9227112847e4" name="Changes" comment="trim">
-      <change afterPath="$PROJECT_DIR$/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd923a3f-6019-43fc-b0a4-9227112847e4" name="Changes" comment="Första lösningar till exercise 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +106,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1744022804030</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Första lösningar till exercise 5">
+      <created>1744027061375</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1744027061375</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +131,8 @@
     <MESSAGE value="Första versionen" />
     <MESSAGE value="tog bort en print" />
     <MESSAGE value="trim" />
-    <option name="LAST_COMMIT_MESSAGE" value="trim" />
+    <MESSAGE value="Första lösningar till exercise 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Första lösningar till exercise 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
