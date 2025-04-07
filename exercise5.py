@@ -31,6 +31,7 @@ def sin(x, omega):
 
 print(quad(sin, 0, np.pi/2, 2*np.pi))
 
+
 # Task 6
 coefs = np.linspace(0, 2*np.pi, 1000)
 integrals = [quad(sin, 0, np.pi/2, c)[0] for c in coefs]
@@ -42,10 +43,12 @@ plt.xlabel("Omega")
 plt.ylabel("Integral from 0 to pi/2")
 plt.grid()
 
+
 # Task 7
 # Vi gissar att x=10 ligger till höger om den positiva roten
 root = fsolve(p3, np.array([10]), (1, 1, -3))
 print(root)
+
 
 # Task 8
 # Vi gissar att x=10 alltid ligger till höger om den positiva roten
