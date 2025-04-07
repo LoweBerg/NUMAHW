@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def approx_ln(x: float, n: int) -> float:
-    """"
+    """
     Gives an approximation of ln(x) for some x > 0 after n iterations
     """
     if x <= 0:
@@ -19,7 +19,7 @@ def approx_ln(x: float, n: int) -> float:
 
 
 def fast_approx_ln(x: float, n: int) -> float:
-    """"
+    """
     Gives an approximation of ln(x) for some x > 0 after n iterations using an auxiliary array to
     speed up convergence
     """
