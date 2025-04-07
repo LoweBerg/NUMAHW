@@ -1,1 +1,1 @@
-Lowe och Hermans lösningar till problem i NUMA
+Lowes och Hermans lösningar till problem i NUMA
