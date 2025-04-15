@@ -59,8 +59,10 @@ def main():
         axs[1].plot(x, error, color=colors[i], label=f'error after {i} iterations')
 
     axs[0].plot(x, np.log(x), label='numpy natural logarithm')
+    axs[0].set_xscale('log')
     axs[0].legend()
     axs[0].set_title("approximated logarithms with different numbers of iterations")
+    axs[1].set_yscale('log')
     axs[1].legend()
     axs[1].set_title("error of approximated logarithms")
 
@@ -76,6 +78,7 @@ def main():
     plt.ylabel('Error')
     plt.title('Error of approx_ln(1.41, n) for n')
     plt.plot(n, error, color='blue', label=f'|approx_ln(1.41, n) - ln(1.41)|')
+    plt.yscale('log')
     plt.legend()
 
     # Task 5
