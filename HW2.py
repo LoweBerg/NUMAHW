@@ -121,9 +121,11 @@ class Interval:
 
 
 if __name__ == '__main__':
+    # Task 3
     i = Interval(1, 2)
     print(i)
     print("-"*30)
+    # Task 4
     I1 = Interval(1, 4)  # [1 , 4 ]
     print(I1)
     I2 = Interval(-2, - 1)  # [ -2 , -1 ]
@@ -148,6 +150,7 @@ if __name__ == '__main__':
     print(Interval(2, 3) * 1.0)  # [ 2 .0 , 3 . 0 ]
     print(- Interval(4, 5))  # [-4, -5]
     print("-" * 30)
+    # Task 9
     x = Interval(-2, 2)  # [ -2 , 2 ]
     print(x**2)  # [ 0 , 4 ]
     print(x**3)  # [ -8 , 8 ]
