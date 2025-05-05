@@ -103,6 +103,22 @@ class Interval:
     def __contains__(self, item):
         return self._left <= item <= self._right
 
+    @property
+    def left(self):
+        return self._left
+
+    @left.setter
+    def left(self, val):
+        self._left = val
+
+    @property
+    def right(self):
+        return self._right
+
+    @right.setter
+    def right(self, val):
+        self._right = val
+
 
 if __name__ == '__main__':
     i = Interval(1, 2)
@@ -143,9 +159,9 @@ if __name__ == '__main__':
     for i in range(np.size(xl)):
         intervals[i] = Interval(xl[i], xu[i])
 
-    polynomial = [3*(I**3) - 2*(I**2) - 5*I - 1 for I in intervals]
-    yl = [I._left for I in polynomial]
-    yu = [I._right for I in polynomial]
+    polynomial = [3*(X**3) - 2*(X**2) - 5*X - 1 for X in intervals]
+    yl = [X.left for X in polynomial]
+    yu = [X.right for X in polynomial]
 
     plt.plot(xl, yl, color="blue")
     plt.plot(xl, yu, color="green")
