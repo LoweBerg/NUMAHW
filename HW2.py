@@ -11,6 +11,8 @@ class Interval:
             self._right = left
         else:
             self._right = right
+            if self.right < self.left: #löser så att intervallen alltid är på formen [a, b] där a <= b
+                self.left, self.right = right, left
 
     # Task 2
     def __add__(self, other):
@@ -76,8 +78,8 @@ class Interval:
     def __rtruediv__(self, other):
         return other / self
 
-    def __neg__(self):
-        return Interval(-self._left, -self._right)
+    def __neg__(self): #bytte plats på right och left här så att formateringen är rätt.
+        return Interval(-self.right, -self.left)
 
     # Task 9
     def __pow__(self, other):
