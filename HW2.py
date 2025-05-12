@@ -11,7 +11,7 @@ class Interval:
             self._right = left
         else:
             self._right = right
-            if self.right < self.left: #löser så att intervallen alltid är på formen [a, b] där a <= b
+            if self.right < self.left:  # löser så att intervallen alltid är på formen [a, b] där a <= b
                 self.left, self.right = right, left
 
     # Task 2
@@ -78,7 +78,7 @@ class Interval:
     def __rtruediv__(self, other):
         return other / self
 
-    def __neg__(self): #bytte plats på right och left här så att formateringen är rätt.
+    def __neg__(self):  # bytte plats på right och left här så att formateringen är rätt.
         return Interval(-self.right, -self.left)
 
     # Task 9
@@ -150,7 +150,7 @@ if __name__ == '__main__':
     print(1 * Interval(2, 3))  # [2 , 3 ]
     print(1.0 * Interval(2, 3))  # [ 2 .0 , 3 . 0 ]
     print(Interval(2, 3) * 1.0)  # [ 2 .0 , 3 . 0 ]
-    print(- Interval(4, 5))  # [-4, -5]
+    print(- Interval(4, 5))  # [-5, -4]
     print("-" * 30)
     # Task 9
     x = Interval(-2, 2)  # [ -2 , 2 ]
@@ -170,7 +170,7 @@ if __name__ == '__main__':
 
     plt.plot(xl, yl, color="blue")
     plt.plot(xl, yu, color="green")
-    plt.title(r"$p(I) = 3I^3 − 2I^2 − 5I − 1$, I = Interval(x, x + 0.5)")
+    plt.title("$p(I) = 3I^3 − 2I^2 − 5I − 1$, I = Interval(x, x + 0.5)")
     plt.xlabel("x")
     plt.ylabel("p(I)")
     plt.xlim(0.0, 1.0)
